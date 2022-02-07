@@ -1,0 +1,31 @@
+@import "styles/variables.module";
+
+.main {
+  height: 100vh;
+}
+
+.chatbotCTAContainer {
+  position: fixed;
+  right:7%;
+  bottom: 2rem;
+}
+@media (max-width: $breakpoint) {
+  .chatbotCTAContainer {
+    right: 2rem;
+  }
+}
+
+.chatbotCTA {
+  padding:1rem;
+  border-color:white;
+  border-width: 0.2rem;
+  background-color: #4dd6b6;
+  font-size: 1rem;
+  border-radius: 50%;
+}
+
+.hideChatbot {
+  position:absolute;;
+  top:-1rem;
+  right:-1.5rem;
+}

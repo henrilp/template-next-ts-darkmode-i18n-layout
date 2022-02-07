@@ -1,0 +1,27 @@
+// ".module" in order to be able to import those variables in js components !
+  $primary-color: rgba(44, 127, 145) ;
+
+  $accent-color: #835F33;
+
+  $background-color-light: #eeeeee;
+  $background-color-dark: #121212;
+
+  $error-color: #b31717;
+
+  $success-color: #24571c;
+
+  $breakpoint: 768px;
+
+  $breakpointTablet: 1100px;
+
+  $borderRadius: 2rem;
+
+  $blackText: #1A1818;
+  $whiteText: #cfcfcf;
+
+  $font: "Open Sans";
+  $fontTitle: "Raleway";
+
+  :export {
+    breakpoint: $breakpoint;
+  }

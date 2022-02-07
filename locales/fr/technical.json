@@ -1,0 +1,12 @@
+{
+  "technos":"Depuis 2018, je travaille à plein temps avec ces technologies :",
+  "name": "Nom",
+  "stack": "Technologies",
+  "resume": "Description",
+  "role": "Rôle",
+  "when": "Année",
+  "portfolioResume":"Construction de ce site web avec le minimum de librairies externes, en quelques douzaines d'heures. Explorez un petit peu !",
+  "bookingSiteResume":"Développement et maintenance d'un site de réservation de trajet en mode SAAS, aux configurations complexes, au sein d'une équipe de Devs (\"squad\")",
+  "distrimedicResume":"Co-construction d'une application mobile qui rappelle aux patients de prendre leurs médicaments, et permet de les suivre.",
+  "mkmResume":"Participation à une platforme SAAS de gestion d'un site web et de vie associative. Nous avons virtualisé des monnaies locales en utilisant la technologie Blockchain, et permis à ces structures de gérer leur économie."
+}

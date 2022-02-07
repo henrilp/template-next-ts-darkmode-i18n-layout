@@ -1,0 +1,13 @@
+{
+  "success": "Your message has been successfully sent! ✅",
+  "required": "This field is required",
+  "allRequired": "* All fields are required",
+  "name": "Name",
+  "namePlaceholder": "Some designation",
+  "email": "Email",
+  "emailPlaceholder": "your@email.plz",
+  "message": "Message",
+  "messagePlaceholder": "What do you want to tell me?",
+  "send": "Send",
+  "error": "This is awkward...😅 An error occured. I will take care of this asap."
+}

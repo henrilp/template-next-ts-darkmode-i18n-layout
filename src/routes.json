@@ -1,0 +1,9 @@
+[{
+    "name": "home",
+    "path": "/"
+  },
+  {
+    "name": "contact",
+    "path": "/contact"
+  }
+]

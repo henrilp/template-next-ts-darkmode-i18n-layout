@@ -1,0 +1,12 @@
+{
+  "technos": "Since 2018, I've been working full-time with these technologies:",
+  "name": "Name",
+  "stack": "Technical Stack",
+  "resume": "Resume",
+  "role": "Role",
+  "when": "Year",
+  "portfolioResume":"I built this website with almost no external libraries, in a few dozens of hours. Look around!",
+  "bookingSiteResume":"I developed and maintained a bus rides booking site with multi-configurations management, while being a part of a dev team (\"squad\"). ",
+  "distrimedicResume":"I co-developed a mobile app that reminds patients to take their medication, and keep them in contact.",
+  "mkmResume":"I co-developed a SAAS platform for local currencies organizations. We virtualized local currencies through Blockchain technology, and allowed them to manage their economy."
+}

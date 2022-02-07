@@ -1,0 +1,13 @@
+{
+  "success": "Votre message a bien été envoyé ✅",
+  "required": "Ce champs est requis",
+  "allRequired": "* Tous les champs sont requis",
+  "name": "Nom",
+  "namePlaceholder": "Une désignation quelconque",
+  "email": "Email",
+  "emailPlaceholder": "votre@email.svp",
+  "message": "Message",
+  "messagePlaceholder": "Que voulez-vous me dire ?",
+  "send": "Envoyer",
+  "error": "Oups...😅 Une erreur s'est produite. Je m'en occupe dès que possible."
+}

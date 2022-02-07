@@ -1,0 +1,34 @@
+@import "styles/variables.module";
+
+.common {
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  box-shadow: 0.2rem 0.2rem 0.1rem 0 grey;
+  border-radius:$borderRadius;
+  padding: 0.5rem 1.5rem;
+  font-size: 1.4rem;
+  transition: all 300ms linear;
+  white-space: nowrap;
+  margin: 0.2rem;
+}
+@media (hover: hover) {
+  .common:hover {
+    cursor: pointer;
+    box-shadow: none;
+    background-color: $whiteText;
+    color:$blackText;
+  }
+}
+.primary {
+  background-color: $primary-color;
+  color: white;
+  border:1px solid $blackText;
+}
+.outlined {
+  color: $blackText;
+  border:2px solid $blackText;
+}
+.darkOutlined {
+  color: $whiteText;
+  border:2px solid $whiteText;
+}

@@ -1,0 +1,14 @@
+{
+  "whyTitle":"A Portfolio that Contains Itself 🪞",
+  "whyBody":"<p>In 2021, after more than 2 years of experience in tech companies, I decided to become freelance. It comes with a cost: I will have to find missions and convince clients of my worth as a web developer.</p><p>That's why I decided to invest my time in a custom portfolio website. The philosophy has been to do the maximum from scratch, with as little packages as possible. I just used NextJS because it is an optimized and structured React framework, and Heroku for the deployment and hosting.</p>",
+  "challengeTitle":"A challenge to myself 💪",
+  "challengeBody":"<p>Until then, I had always been using a UI library, either Semantic UI or Material UI. This time, I wanted to style all my components from scratch with pure css (and the help of React-Transition-Group for DOM insertions)</p><p>I wanted this website scalable, so I made some dynamic components (see \"My Journey\" or \"Technical\"), that only take json files as input.</p><p>I really enjoyed digging into features that I had not implemented yet (Chatbot, Dark Mode, complex animations...).</p>",
+  "darkModeTitle":"Dark Mode 🌗",
+  "darkModeBody":"<p>I used the package use-dark-mode from Donavon. Dark Mode revealed itself a bigger challenge than expected. It required the notion of layers and transparency of background.</p>",
+  "chatbotTitle":"A Proof-of-Concept Chatbot 🤖",
+  "chatbotBody":"<p>I've always loved chatbots. Those scripted discussions can be a game between the author and the reader. I want to invest more time in this one! Don't hesitate to tell me any ideas you could have.</p><p>I have used the flexible package React Simple Chatbot from Lucas Bassetti.</p>",
+  "responsiveTitle":"Responsive 🖥️",
+  "responsiveBody":"<p>The responsive part was a bit tricky too. It was interefering with SSR at first, because a server doesn't have a window to know which appbar to render. Finally, a css trick did the job (rendering both appbars, desktop and mobile, and hiding one with css).</p>",
+  "futureTitle":"In the Future 💭",
+  "futureBody":"<p>I'd like to have a real UI design, with a logo and a proper graphical chart.</p><p>I'd also like to put more easter eggs in the website. I love discovering a hidden part that tells a lot about the author.</p>"
+}

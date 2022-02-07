@@ -1,0 +1,13 @@
+{
+  "formAlt":"A reservation form with several possible configurations",
+  "saasTitle":"A \"White Label\" Website",
+  "saasBody":"<p>The company was provided a booking site to allow users to book their \"intelligent\" buses with their local transport operator. The challenge was to have the same code for several operators, each having its own color theme, booking options and features.</p><p> If you happen to live in Lille, France, you'll want to see their on-demand public transport website: <a>https://reservation.ilevia.fr</a>.</p>",
+  "searchResultsAlt":"Select ride propositions: a front-side challenge",
+  "stackTitle":"React, Redux and Material UI",
+  "stackBody":"<p>Redux was used mainly for two things: manage complex form data (front state), and track api calls status, maintaining synchronicity with the localStorage of the browser.</p><p>We were using Material-UI's well known user interface, as it provides reliable and customizable front bricks (buttons, containers, textfields...). A custom Theme was dynamically defined for each operator's website.</p>",
+  "paymentTitle":"Stripe for payment",
+  "paymentBody":"<p>A payment API was designed by the team and implemented on front side in the most dynamic way possible. Any payment method (credit card, virtual credit, promotional codes...) would be pluggable in the reservation \"tunnel\".</p><p>I implemented Stripe for React in a custom credit card form, synchronized avec Stripe et les serveurs de l'entreprise.</p>",
+  "accessibilityTitle":"Accessibility (WCAG/RGAA)",
+  "accessibilityBody":"<p>A big challenge has been to make our website compliant to the french RGAA principles. It allows impaired people to navigate only with keyboard and voice description the entirety of the website.</p><p>It required a deep insight in HTML and ARIA documentation, and also allowed for a cleaner structure of front components.</p>",
+  "reservationAlt":"Booking visualization with key informations"
+}

@@ -1,0 +1,71 @@
+@import "styles/variables.module";
+
+.hidden {
+  height:0;
+}
+.links {
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: repeat(5,1fr) ;
+}
+.features {
+  justify-content: space-evenly;
+}
+.capital {
+  font-family: "Cedarville Cursive";
+  font-size: 2.8rem;
+  line-height: 3.2rem;
+  padding-left: 0.5rem;
+}
+.name {
+  font-family: "Cedarville Cursive";
+  font-size: 1.5rem;
+  letter-spacing: 0.03rem;
+  overflow: hidden;
+}
+
+.flag {
+  width:2.5rem;
+}
+.sandwich {
+  width:3rem;
+  height:3rem;
+  fill:white;
+}
+.main {
+  // position:fixed;
+  // top:0;
+  // z-index: 5;
+
+  width:100%;
+}
+
+.appBarResp {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.drawerContainer {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  //top:4rem; // height of appbar in resp
+  top:0;
+  //z-index:5;
+  //position: fixed;
+  height:100%;
+  width:100%;
+
+  overflow-y: auto;
+}
+.drawer {
+  background-color: $primary-color;
+  border: 1px solid grey;
+  transition: all 300ms ease-in;
+  // see drawer.js for width
+}
+
+.obscure {
+  background-color: rgba(0, 0, 0, 0.25);
+  height:100%;
+  width:100%;
+}

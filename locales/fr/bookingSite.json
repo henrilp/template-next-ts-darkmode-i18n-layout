@@ -1,0 +1,13 @@
+{
+  "formAlt":"Un formulaire de réservation aux configurations multiples",
+  "saasTitle":"Un Site Web en \"Marque Blanche\"",
+  "saasBody":"<p>L'entreprise fournissait un site de réservation pour permettre aux utilisateurs de réserver leur bus \"intelligent\" avec leur opérateur de transport local. Le défi était d'avoir le même code pour différents opérateurs, chacun ayant son propre thème de couleur, ses options de réservations et ses fonctionnalités.</p><p>Si jamais vous habitez à Lille en France, n'hésitez pas à aller voir leur site de transport public à la demande : <a>https://reservation.ilevia.fr</a>.</p>",
+  "searchResultsAlt":"Sélectionner des propositions de trajet : un défi de mise en forme",
+  "stackTitle":"React, Redux et Material UI",
+  "stackBody":"<p>Redux était utilisé pour deux choses : gérer les données de formulaires complexes (\"front state\"), et pour tracer les requêtes serveur, assurant la synchronicité avec le cache local du navigateur.</p><p>Nous utilisions Material UI pour la librairie d'interface, car elle fournit des blocs stables et paramétrables (boutons, cadres, champs de textes...). Un Thème particulier était défini dynamiquement pour chaque opérateur.</p>",
+  "paymentTitle":"Stripe pour le paiement",
+  "paymentBody":"<p>Une API de paiement fut mise en place par l'équipe et implémenté côté Front de la manière la plus dynamique possible. Tout moyen de paiement (carte de crédit, crédit virtuel, code promotionnel...) était insérable dans le \"tunnel\" de réservation.</p><p>J'ai implémenté Strip pour React dans un formulaire spécifique de carte de crédit, synchronisé avec Stripe et les serveurs de l'entreprise.</p>",
+  "accessibilityTitle":"Accessibilité (WCAG/RGAA)",
+  "accessibilityBody":"<p>Un grand défi a été de rendre le site conforme avec les principes d'accessibilité RGAA. Ils doivent permettre aux personnes à capacité réduite de naviguer pleinement à l'aide du clavier et de technologies vocales.</p><p>Cela a nécessité une connaissance approfondie de la documentation HTML et ARIA, et a permis un code Front mieux structuré.</p>",
+  "reservationAlt":"Visualisation des informations clés d'une réservation"
+}

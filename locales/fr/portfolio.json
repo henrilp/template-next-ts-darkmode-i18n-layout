@@ -1,0 +1,14 @@
+{
+  "whyTitle":"Un Portfolio qui se Contient Lui-même 🪞",
+  "whyBody":"<p>En 2021, après plus de 2 ans d'expérience dans des entreprises Tech, j'ai décidé de devenir indépendant. Ce choix implique un défi : celui de convaincre des clients de mes capacités dans le web.</p><p>C'est pourquoi je me suis lancé dans la création de ce portfolio. La ligne directrice a été de faire le maximum par moi-même, avec le minimum de plugins. J'ai toutefois utilisé NextJS pour son cadre structurant, et Heroku pour le déploiement automatisé.</p>",
+  "challengeTitle":"Un Défi Personnel 💪",
+  "challengeBody":"<p>Jusque là, j'avais toujours utilisé des librairies d'interfaces (Semantic UI et Material UI) pour les éléments de base (boutons, cadres, champs de formularies...). Cette fois j'ai voulu coder mes composants en CSS et HTML purs, et utiliser react-transition-group pour les animations.</p><p>Je voulais un site qui puisse s'étoffer avec le temps, j'ai donc créé des composants dynamiques qui prennent des fichiers JSON en entrée (voir \"Mon Parcours\" et \"Technique\")</p><p>Je me suis lancé avec plaisir dans des fonctionnalités que je n'avais pas encore implémentées (Chatbot, mode sombre, animations complexes...).</p>",
+  "darkModeTitle":"Mode Sombre 🌗",
+  "darkModeBody":"<p>J'ai choisi le plugin use-dark-mode de Donavon. La gestion du mode sombre s'avéra plus complexe que prévu. J'ai appris l'usage de la profondeur de champs et de la transparence.</p>",
+  "chatbotTitle":"Un Chatbot Expérimental 🤖",
+  "chatbotBody":"<p>J'ai toujours adoré les chatbots. Ces discussions scriptées peuvent devenir un jeu entre l'auteur et l'utilisateur. J'aimerais continuer d'améliorer celui-ci ! N'hésitez pas à me donner vos idées.</p><p>J'ai utilisé le plugin générique react-simple-chatbot de Lucas Bassetti./p>",
+  "responsiveTitle":"Le \"Responsive\" (Adaptation à Plusieurs Types d'Écrans) 🖥️",
+  "responsiveBody":"<p>Le responsive m'a aussi demandé beaucoup de travail. Il y a eu des conflits avec les optimisations de rendus côté serveur. Trouver la bonne configuration CSS peut parfois prendre du temps.</p>",
+  "futureTitle":"Dans le futur 💭",
+  "futureBody":"<p>Dans le futur, j'aimerais améliorer l'aspect design UI de mon site, avec une vraie charte graphique, un logo...</p><p>J'aimerais aussi y rajouter des \"easter eggs\". Personnellement j'adore trouver des petits détails pensés par l'auteur. Cela crée de la complicité.</p>"
+}
