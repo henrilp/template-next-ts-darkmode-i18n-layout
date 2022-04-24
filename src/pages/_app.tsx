@@ -21,7 +21,7 @@ function App({ Component, pageProps }) {
 			darkMode.disable()
 		}
 		setIsMounted(true)
-	}, [darkMode])
+	}, [])
 	return (
 		<DrawerProvider>
 			<Script src="noflash.js" />
