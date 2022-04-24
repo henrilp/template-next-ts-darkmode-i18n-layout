@@ -38,7 +38,9 @@ export default function sendContactMail(req, res){
 						}
 					],
 					'Subject': '[AUTOMATIC] Henri Le Page',
+					/* eslint-disable */
 					'TextPart': 'Bonjour,\n\nJe vous remercie pour votre message !\nJ\'y répondrai dès que possible.\n\nBien cordialement,\n\nHenri Le Page\n\n________________________________________\n\nHello,\n\nThank you for your message!\nI will answer as soon as possible.\n\nSincerely yours,\n\nHenri Le Page',
+					/* eslint-enable */
 				}
 			]
 		})
