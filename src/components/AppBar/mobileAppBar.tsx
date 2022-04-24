@@ -32,12 +32,12 @@ export default function AppBar({scrollDirection}){
 	// full screen fixed
 	return(
 		<div className={'appBar aligned '+styles.appBarResp+' '+(scrollDirection === 'down' ? styles.hidden : '')}
-			style={darkMode.value ? {backgroundColor: 'black'}:null}>
+			style={darkMode.value ? {backgroundColor: 'black'}:undefined}>
 			<div className="row-only aligned spaced">
 				<button className="iconButton" aria-label="navigation drawer"
 					onClick={(e) => {
 						e.preventDefault()
-						setIsDrawerOpen(!isDrawerOpen)
+						setIsDrawerOpen && setIsDrawerOpen(!isDrawerOpen)
 					}}>
 					{isDrawerOpen
 						? <SandwichOpen className={styles.sandwich}/>

@@ -46,7 +46,7 @@ export default function ContactForm(){
 				<span>{t('success')}</span>
 			</Popup>
 			}
-			{sendError && <Popup onClose={() => setSendError(null)}>
+			{sendError && <Popup onClose={() => setSendError(false)}>
 				<span className="error">{t('error')}</span>
 			</Popup>
 			}

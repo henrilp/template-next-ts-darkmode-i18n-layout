@@ -1,5 +1,5 @@
 {
-  "name": "game-of-life",
+  "name": "just-few-pixels",
   "private": true,
   "scripts": {
     "dev": "next dev",

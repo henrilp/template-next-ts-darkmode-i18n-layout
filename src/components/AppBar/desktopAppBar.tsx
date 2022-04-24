@@ -35,7 +35,9 @@ export default function AppBar({scrollDirection}){
 				<div className="row-only aligned spaced">
 					<NextLink href="/">
 						<a className="route" style={{paddingTop: 0, paddingBottom: 0, paddingRight: '1rem'}}>
-							<span className={styles.name} style={{fontSize: '2.5vw', lineHeight: '4rem' /* here should be height of appBar*/}}>
+							<span 
+								className={styles.name}
+								style={{fontSize: '2.5vw', lineHeight: '4rem' /* here should be height of appBar*/}}>
 								Henri Le Page
 							</span>
 						</a>

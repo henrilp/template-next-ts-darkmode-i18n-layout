@@ -9,7 +9,7 @@ import {DrawerContext} from "context/drawerContext"
 export default function DrawerContent(){
 	const { t } = useTranslation("common")
 	const {setIsDrawerOpen} = useContext(DrawerContext)
-	const close = () => setIsDrawerOpen(false)
+	const close = () => setIsDrawerOpen && setIsDrawerOpen(false)
 	return(
 		<nav className="column aligned padded scrollable">
 			<button className="iconButton" aria-label="navigation drawer"
